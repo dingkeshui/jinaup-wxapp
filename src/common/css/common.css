@@ -1,0 +1,241 @@
+/*颜色*/
+.red{
+	color: #FC5D7B;
+}
+.vipcol{
+	color: #A87831;
+}
+.colfff{
+  color: #fff;
+}
+.bgfff{
+  background-color: #fff;
+}
+.bgf3{
+  background: #F3F7F7;
+}
+.col999{
+  color: #999DA2;
+}
+
+/*flex*/
+.flex{
+	display: flex;
+}
+.flex1{
+	flex: 1;
+}
+.flex2{
+  display: flex;
+  flex-direction: column;
+}
+.flexcenter{
+	align-items: center;
+	justify-content: center;
+}
+.flexvcenter{
+	align-items: center;
+}
+
+/*字体对其*/
+.center{
+	text-align: center;
+}
+
+.line1{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+/*字体大小*/
+.fs0{
+	font-size: 0px;
+}
+.fs12{
+	font-size: 12px;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs16{
+  font-size: 16px;
+}
+
+/*高度*/
+.h30{
+  height: 30px;
+  line-height: 30px;
+}
+/*margin*/
+.mgb10{
+  margin-bottom: 10px;
+}
+.mgr10{
+  margin-right: 10px;
+}
+.mgr5{
+  margin-right: 5px;
+}
+.mgb5{
+  margin-bottom: 5px;
+}
+.mgb20{
+  margin-bottom: 20px;
+}
+.mgb50{
+  margin-bottom: 50px;
+}
+
+/*padding*/
+.pad10{
+	padding: 10px;
+}
+.padl10{
+	padding-left: 10px;
+}
+.padlr10{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.padb10{
+  padding-bottom: 10px;
+}
+.padt10{
+  padding-top: 10px;
+}
+.padb50{
+  padding-bottom: 50px;
+}
+.pad5{
+	padding: 5px;
+}
+
+.minBox{
+	min-width: 100%;
+	min-height: 100%;
+}
+.box{
+	width: 100%;
+	height: 100%;
+}
+
+.boxsizing{
+  box-sizing: border-box;
+}
+
+.ovh{
+  overflow: hidden;
+}
+
+/*定位*/
+.rel{
+  position: relative;
+}
+/*钱*/
+.onpic{
+  color: #FC5D7B;
+  font-size: 18px;
+}
+.dontpic{
+  color: #999DA2;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+.vippic{
+  color: #a87831;
+  font-size: 12px;
+}
+.carouselProductPriceEarn{
+  background-color: rgba(255, 232, 237, 1);
+  border-radius: 3px;
+  color: #fc5d7b;
+  padding: 0px 4px;
+}
+
+/*分享按钮*/
+.shareButBox{
+  position: relative;
+}
+.shareBut{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+button[class="shareBut"]::after {
+  border: 0px !important;
+  display: none !important;
+}
+.shareButBox button[plain]{
+  border:0px;
+}
+
+/*专题分享按钮*/
+.shareDiv{
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+/*登陆*/
+.bgImg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index:99;
+}
+.loginBut{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-left: -51px;
+  top: 60vh;
+  left: 50vw;
+  width: 100px;
+  line-height: 30px;
+  border:1px solid #ccc;
+  text-align: center;
+}
+
+.img{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.vipimg {
+  width: 21px;
+  height: 10px;
+}
+
+.inpuTitle{
+  color: #323A45;
+  font-size: 16px;
+  min-width: 80px;
+}
+.inputBox{
+  color: #484848;
+  font-size: 16px;
+}
+.inputBox input{
+  height: 25px;
+}
+.inputItem{
+  line-height: 25px;
+}
+.inputFoot{
+  color: #999DA2;
+  font-size: 16px;
+}
